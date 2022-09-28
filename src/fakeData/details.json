@@ -5,7 +5,7 @@
         "description": "A weight plate is a flat, heavy object, usually made of cast iron total weight for the purpose of physical exercise.",
         "age": 20,
         "time": 20,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://images.wisegeek.com/average-man-lifting-weights.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "Dumbbell exercises allow for movement think how rigid barbell exercises are that a fixed machine, you can get a greater range of motion.",
         "age": 25,
         "time": 30,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://img.lovepik.com/free-png/20211106/lovepik-gym-strong-man-dumbbell-movement-png-image_400336677_wh1200.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "description": "The squat rack is the centerpiece of just about every home and garage gym in the world. As such, it should be versatile, durable, useful.",
         "age": 22,
         "time": 25,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://barbend.com/wp-content/uploads/2021/07/First.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "description": "Muscles used: Hamstrings, Gluteus Maximus,Erector Spinae, Quadriceps Femoris,Rhomboids, Trapezius, Deltoids, Latissimus Dorsi,Abdominals, Forearms.",
         "age": 23,
         "time": 35,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://manofmany.com/wp-content/uploads/2019/10/Kettlebell-Workouts.jpg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "description": "An indoor rower, or rowing machine, is a machine used to simulate the action of watercraft rowing for the purpose of exercise or training for rowing.",
         "age": 25,
         "time": 40,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://row-360.com/wp-content/uploads/2020/06/tom2-1024x1547.jpg"
     },
     {
         "id": 6,
@@ -45,6 +45,6 @@
         "description": "A treadmill is a piece of exercise equipment that has a belt that loops around, driven by a motor.A person to walk or run on the treadmill in place.",
         "age": 20,
         "time": 30,
-        "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "img": "https://www.shuafitness.com/wp-content/uploads/2022/02/treadmill-4.jpg"
     }
 ]
