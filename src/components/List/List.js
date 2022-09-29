@@ -14,8 +14,8 @@ const List = ({ list, handleAddToClickList }) => {
                 <h2 className='list-time'>Time required : {time} hours</h2>
 
             </div>
-            <button onClick={() => handleAddToClickList(list)} className='btn-add'>
-                <p>Add to list</p>
+            <button onClick={() => handleAddToClickList(time)} className='btn-add'>
+                Add to list
             </button>
 
         </div>

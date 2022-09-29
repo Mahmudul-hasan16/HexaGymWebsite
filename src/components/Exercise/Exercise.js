@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Exercise.css'
 
 const Exercise = (props) => {
+    const exercise = [10, 20, 30, 40, 50];
+    const [breaktime, setBreaktime] = useState(0);
+    const activity = (exer) => {
+        setBreaktime(exer);
+    }
     return (
         <div>
             <div className='profile-details'>
@@ -31,11 +36,14 @@ const Exercise = (props) => {
             <div className='break-container'>
                 <h2>Add Break</h2>
                 <div className='break-btn'>
-                    <button>10</button>
+                    {/* <button>10</button>
                     <button>20</button>
                     <button>30</button>
                     <button>40</button>
-                    <button>50</button>
+                    <button>50</button> */}
+                    {
+                        exercise.map(exer => <button onClick={() => activity(exer)}>{exer}</button>)
+                    }
                 </div>
             </div>
             <div className='exercise-details'>
@@ -44,7 +52,7 @@ const Exercise = (props) => {
                     <h3>Exercise Time: 0 hrs</h3>
                 </div>
                 <div>
-                    <h3>Break Time: 0 hrs</h3>
+                    <h3>Break Time: {breaktime} hrs</h3>
                 </div>
             </div>
 
