@@ -21,7 +21,7 @@ const Exercise = (props) => {
     const completed = () => {
         Swal.fire(
             'Good job!',
-            'You clicked the button!',
+            'Your Activity Completed!',
             'success'
         )
     }

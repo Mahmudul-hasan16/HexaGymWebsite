@@ -113,3 +113,18 @@
 .activity-completed button:hover {
     background-color: orange;
 }
+
+
+@media only screen and (max-width: 680px) {
+    .activity-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .list-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+
+}
