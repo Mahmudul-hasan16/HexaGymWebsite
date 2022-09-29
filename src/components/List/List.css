@@ -32,7 +32,8 @@
 
 .btn-add {
     width: 100%;
-    background: #1b3c51;
+    height: 50px;
+    background: #1395e6;
     border: none;
     border-radius: 0 0 8px 8px;
     position: absolute;
@@ -45,6 +46,6 @@
 }
 
 .btn-add:hover {
-    background-color: #56beff;
-    color: black
+    background-color: orange;
+
 }

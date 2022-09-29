@@ -5,6 +5,7 @@ import './Activity.css'
 
 const Activity = () => {
     const [data, setData] = useState([]);
+    const [time, setTime] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -12,11 +13,11 @@ const Activity = () => {
             .then(data => setData(data))
 
     }, [])
-    // const handleAddToListClick = (list) =>{
-    //     // console.log(list);
-    //     const newList = [...exercise , list];
-    //     setList(newList);
-    // }
+
+    const handleClickedToTheBtn = (timezone) => {
+        const newTime = [...time, timezone];
+        setTime(newTime);
+    }
 
     return (
         <div className='activity-container'>
@@ -25,13 +26,15 @@ const Activity = () => {
                     data.map(list => <List
                         key={list.id}
                         list={list}
-                    // handleAddToListClick={handleAddToListClick}
+                        handleAddToClickList={handleClickedToTheBtn}
                     ></List>)
                 }
 
             </div>
             <div className="details-container">
-                <Exercise></Exercise>
+                <Exercise
+                    exerciseTime={time}
+                ></Exercise>
             </div>
         </div>
     );

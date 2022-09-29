@@ -1,12 +1,32 @@
 import React, { useState } from 'react';
 import './Exercise.css'
+import Swal from 'sweetalert2'
 
 const Exercise = (props) => {
     const exercise = [10, 20, 30, 40, 50];
+
     const [breaktime, setBreaktime] = useState(0);
+
     const activity = (exer) => {
         setBreaktime(exer);
+        localStorage.setItem('BreakTime', exer);
     }
+    const { exerciseTime } = props;
+    const initialValue = 0;
+    const sumWithInitial = exerciseTime.reduce(
+        (previousValue, currentValue) => previousValue + currentValue,
+        initialValue
+    );
+
+    const completed = () => {
+        Swal.fire(
+            'Good job!',
+            'You clicked the button!',
+            'success'
+        )
+    }
+
+
     return (
         <div>
             <div className='profile-details'>
@@ -49,15 +69,15 @@ const Exercise = (props) => {
             <div className='exercise-details'>
                 <h2>Exercise Details:</h2>
                 <div>
-                    <h3>Exercise Time: 0 hrs</h3>
+                    <h3>Exercise Time: {sumWithInitial} hrs</h3>
                 </div>
                 <div>
-                    <h3>Break Time: {breaktime} hrs</h3>
+                    <h3>Break Time: {localStorage.getItem('BreakTime')} hrs</h3>
                 </div>
             </div>
 
             <div className='activity-completed'>
-                <button>Activity Completed</button>
+                <button onClick={completed}>Activity Completed</button>
             </div>
         </div>
     );
