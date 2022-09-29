@@ -11,7 +11,13 @@
 
 .profile-details {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
+    background-color: rgb(147, 95, 95);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .profile-pic img {
@@ -24,4 +30,86 @@
 .details-container {
     background-color: #0e364b;
     color: white;
+}
+
+.details {
+    display: flex;
+    background-color: rgb(147, 95, 95);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.details div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #0e364b;
+    color: white;
+}
+
+.break-container {
+    background-color: rgb(147, 95, 95);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.break-container h2 {
+    text-align: center;
+
+}
+
+.break-btn button {
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(113, 113, 237);
+    color: white;
+    padding: 20px;
+}
+
+.break-btn button:hover {
+    background-color: orange;
+}
+
+.exercise-details {
+    background-color: rgb(147, 95, 95);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.exercise-details h3 {
+    background-color: #0e364b;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.activity-completed {
+    background-color: rgb(147, 95, 95);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-completed button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #0e364b;
+    color: white;
+    border-radius: 30px;
+}
+
+.activity-completed button:hover {
+    background-color: orange;
 }
