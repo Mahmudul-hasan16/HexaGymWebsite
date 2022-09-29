@@ -1,0 +1,27 @@
+.activity-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+
+.profile-details {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 50px;
+}
+
+.details-container {
+    background-color: #0e364b;
+    color: white;
+}

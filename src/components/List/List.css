@@ -1,0 +1,50 @@
+.list {
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95a0a7;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: 15px;
+    padding: 7px;
+    position: relative;
+}
+
+.list img {
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+
+}
+
+.list-name {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.list-info {
+    margin: 0 5px;
+}
+
+.btn-add {
+    width: 100%;
+    background: #1b3c51;
+    border: none;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0.50px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: white;
+
+}
+
+.btn-add:hover {
+    background-color: #56beff;
+    color: black
+}

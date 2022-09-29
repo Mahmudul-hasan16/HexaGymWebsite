@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "School",
+        "time": 1,
+        "img": "https://i.ibb.co/b6FyhW5/1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Reading Newspaper",
+        "time": 3,
+        "img": "https://i.ibb.co/TYXNMrt/2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Watching Tv",
+        "time": 1,
+        "img": "https://i.ibb.co/4mcgjgQ/3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Work Out",
+        "time": 2,
+        "img": "https://i.ibb.co/Lt6WMQj/4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Eating Food",
+        "time": 2,
+        "img": "https://i.ibb.co/6vX3pDr/5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Playing",
+        "time": 3,
+        "img": "https://i.ibb.co/nkGyykK/6.jpg"
+    }
+]
